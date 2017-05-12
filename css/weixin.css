@@ -1,0 +1,85 @@
+.ziti1 {
+    color: #ffffff;
+    position: absolute;
+    left: 160px;
+    top: 250px;
+    font-size: 40px;
+    background-color: #7f90ae;
+}
+.ziti1 p {
+    padding: 0px 8px 0px 8px;
+}
+
+.ziti2 {
+    color: #ffffff;
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    font-size: 50px;
+    background-color: #7f90ae;
+}
+.ziti2 p {
+    padding: 0px 8px 0px 8px;
+}
+.ziti3{
+    color: #ffffff;
+    position: absolute;
+    left: 190px;
+    top: 360px;
+    font-size: 36px;
+    background-color: #7f90ae;
+}
+.ziti3 p {
+    padding: 0px 8px 0px 8px;
+}
+.ziti4{
+    color: #ffffff;
+    position: absolute;
+    left: 170px;
+    top: 410px;
+    font-size: 26px;
+    background-color: #7f90ae;
+}
+.ziti4 p {
+    padding: 0px 8px 0px 8px;
+}
+
+
+/*右边部分*/
+.section-wrap{ width:100%;height:100%;overflow:visible;transition:transform 1s cubic-bezier(0.86,0,0.03,1);-webkit-transition:-webkit-transform 1s cubic-bezier(0.86,0,0.03,1);}
+.section-wrap .section{position:relative; height:100%; margin-left: 330px;width:100%;background-position:center center; background-repeat:no-repeat;
+    overflow: auto;/*实现垂直滚动*/}
+.section-wrap .section .title{width: 74%;position:absolute;color:#fff;font-size:2.4em;text-align:center;}
+.section-wrap .section .title p{ padding:0 4%;opacity:0;margin-top: 4%;}
+.section-wrap .section .title.active .tit{ opacity:1;transform:translateY(-25px);-webkit-transform:translateY(-25px);transition:all 2s cubic-bezier(0.86,0,0.8,1);-webkit-transition:all 2s cubic-bezier(0.86,0,0.8,1);}
+.section-wrap .section-1{ background-color:#55769f}
+
+.title .slide_container1{
+    margin: 0px 20%;
+    padding-top: 110px;
+}
+.slide_container1  .quyu1{
+    position: relative;
+    text-align: left;
+    margin-bottom: 10%;
+
+}
+.slide_container1  .quyu1 span{
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 4%;
+    font-weight: bold;
+}
+.slide_container1 .qian {
+    position: absolute;
+    left: -10%;
+}
+
+.slide_container1 .hou{
+    position: absolute;
+    right: -10%;
+    top: 85%;
+}
+
+

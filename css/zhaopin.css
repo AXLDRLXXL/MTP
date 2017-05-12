@@ -1,0 +1,388 @@
+.bz1{
+    width:128px;
+    height:55px;
+    position:absolute;
+    top:50px;
+    left:100px;
+     z-index: 90;
+}
+.bz1 a.logo{
+    display: block;
+    width: 160px;
+    height: 82px;
+    position: fixed;
+    z-index: 100;
+    left: 10%;
+    top: 6%;
+}
+.bz1 a.logo img{
+    border: medium none;
+    width: 100%;
+}
+
+.zt p{
+    color: #717171;
+    font-size: 16px;
+    position: absolute;
+    width:250px;
+    height:30px;
+    left:80px;
+    bottom: 85px;
+}
+.zt1 p{
+    color: #717171;
+    font-size: 16px;
+    position: absolute;
+    width:250px;
+    height:30px;
+    left:80px;
+    bottom: 60px;
+}
+
+span{
+    color:#FF2B13;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.box_all{
+    overflow: hidden;
+    width: 350px;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border:1px solid #EEEEEE;
+    border-top:2px solid #F57A04;
+    padding:0 0 10px 0;
+    margin:0 auto;
+}
+.box {
+    padding-left:45px;
+    padding-top:5px;
+}
+.box li{
+    line-height: 20px;
+    margin-right:30px;
+    width:120px;
+    text-align:left;
+    float:left;
+    list-style-type:none;
+}
+.ziti1 {
+    color: #ffffff;
+    position: absolute;
+    left: 160px;
+    top: 220px;
+    font-size: 28px;
+    background-color: #7f90ae;
+}
+.ziti1 p {
+    padding: 0px 8px 0px 8px;
+}
+.ziti2 {
+    color: #ffffff;
+    position: absolute;
+    left: 120px;
+    top: 258px;
+    font-size: 50px;
+    background-color: #7f90ae;
+}
+.ziti2 p {
+
+}
+.ziti3{
+    color: #ffffff;
+    position: absolute;
+    left: 150px;
+    top: 328px;
+    font-size: 32px;
+    background-color: #7f90ae;
+}
+.ziti3 p {
+    padding: 0px 8px 0px 8px;
+}
+
+/*右边部分*/
+.section-wrap{ width:100%;height:100%;overflow:visible;transition:transform 1s cubic-bezier(0.86,0,0.03,1);-webkit-transition:-webkit-transform 1s cubic-bezier(0.86,0,0.03,1);}
+.section-wrap .section{position:relative; height:100%; margin-left: 330px;width:100%;background-position:center center; background-repeat:no-repeat;
+    overflow: auto;/*实现垂直滚动*/}
+.section-wrap .section .title{width: 74%;position:absolute;color:#fff;font-size:2.4em;text-align:center;}
+.section-wrap .section .title p{ padding:0 4%;opacity:0;margin-top: 4%;}
+.section-wrap .section .title.active .tit{ opacity:1;transform:translateY(-25px);-webkit-transform:translateY(-25px);transition:all 2s cubic-bezier(0.86,0,0.8,1);-webkit-transition:all 2s cubic-bezier(0.86,0,0.8,1);}
+.section-wrap .section-1{ background-color:#55769f}
+
+.title .slide_container1{
+    margin: 0px 20%;
+    padding-top: 110px;
+}
+.slide_container1  .quyu1{
+    position: relative;
+    text-align: left;
+    margin-bottom: 10%;
+
+}
+.slide_container1  .quyu1 span{
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 34px;
+    margin-bottom: 4%;
+    font-weight: bold;
+}
+.slide_container1 .qian {
+    position: absolute;
+    left: -10%;
+}
+
+.slide_container1 .hou{
+    position: absolute;
+    right: -10%;
+    top: 85%;
+}
+.title .slide_container1 .db{margin-bottom: 130px;}
+.title .slide_container1 .qu{
+    color: #000000;
+}
+.title .slide_container1 .qu .xinxi{
+    text-align: left;
+}
+
+.title .slide_container1 .qu .xinxi ul li{
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: #000;
+}
+.title .slide_container1 .qu .xinxi ul li h2{
+    font-size: 18px;
+    padding-left: 16px;
+    color: #FFF;
+    background: transparent url("../images/circle-white.png") no-repeat scroll 4px center;
+    text-transform: uppercase;
+}
+.title .slide_container1 .qu .xinxi ul li span{
+    font-size: 12px;
+    margin: 5px 10px 0 16px;
+    color: white;
+    line-height: 20px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.title .slide_container1 .db ul{
+    list-style: outside none none;
+}
+.title .slide_container1 .db ul li{
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+    width: 103px;
+    line-height: 34px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 25px;
+    background-color: #7e90ad;
+    color: #ffffff;
+}
+.title .slide_container1 .db ul li.add{
+    background-color: #ffffff;
+    color: #000000;
+}
+/*垂直滚动条*/
+#AD {
+    position: absolute;
+    top:0px;
+    right: 0px;
+    width: 10px;
+    height: 80%;
+    background-color: #a0a0a0;
+    display: none;
+}
+@media (max-width:320px){
+    div.navbar {
+        width: 100%;
+        height: 73px;
+        position: fixed;
+        z-index: 100;
+    }
+    .title .slide_container1 {
+        padding-top: 36%;
+    }
+    .section-wrap .section{margin-left: 0px;}
+    .ziti1{display: none}
+    .ziti3{display: none}
+    .ziti2{
+        font-size: 14px;
+        display: block;
+        position: absolute;
+        left: 5%;
+        top: 45px;
+        z-index: 100;
+        padding: 5px;
+    }
+    .ziti2 p {
+        font-weight: bold;
+    }
+    div.burger {
+        position: fixed;
+        z-index: 100;
+        top: 0px;
+    }
+    .bz1 {
+        z-index:100;
+        width: 128px;
+        top: 6px;
+        left: 58%;
+    }
+    
+    .slide_container1 .qian {
+        left: -12%;
+        top: -8%;
+    }
+    .slide_container1 .qian img{
+        width: 50%;
+    }
+    .slide_container1 .hou {
+        position: absolute;
+        right: -18%;
+        top: 87%;
+    }
+    .slide_container1 .hou img{
+     width: 50%;
+    }
+    .section-wrap .section .title {
+        width: 100%;}
+    .slide_container1 .quyu1 {
+        margin-bottom: 20%;
+    }
+    .slide_container1 .quyu1 span {
+        font-size: 14px;
+        color: #FFF;
+        display: block;
+        line-height: 22px;
+    }
+    .title .slide_container1 {
+        margin: 0 14%;
+    }
+    .title .slide_container1 .db {
+        margin-bottom: 40%;
+    }
+    .title .slide_container1 .db ul li {
+        width: 23.5%;
+        margin-right: 2%;
+        line-height: 24px;
+        font-size: 14px;
+    }
+   
+    .bz1 {
+        z-index: 100;
+        top: 6px;
+        left: 55%;}
+    .title .slide_container1 .qu .xinxi ul li h2{
+        font-size: 14px;
+    }
+    .title .slide_container1 .qu .xinxi ul li span{
+        font-size: 12px;
+    }
+    .bz1 a.logo{
+        width: 80px;
+        height: 41px;
+        left: 70%;
+        top: 1%;
+    }
+
+}
+@media(max-width:600px) and (min-width: 340px){
+    div.navbar {
+        width: 100%;
+        height: 73px;
+        position: fixed;
+        z-index: 100;
+    }
+    .title .slide_container1 {
+        padding-top: 38%;
+    }
+    .section-wrap .section{margin-left: 0px;}
+    .ziti1{display: none}
+    .ziti3{display: none}
+    .ziti2{
+        font-size: 14px;
+        display: block;
+        position: absolute;
+        left: 5%;
+        top: 45px;
+        z-index: 100;
+        padding: 5px;
+    }
+    .ziti2 p {
+        font-weight: bold;
+    }
+    div.burger {
+        position: fixed;
+        z-index: 100;
+        top: 0px;
+    }
+    .bz1 {
+        z-index:100;
+        width: 128px;
+        top: 6px;
+        left: 58%;
+    }
+    
+    .slide_container1 .qian {
+        left: -12%;
+        top: -8%;
+    }
+    .slide_container1 .qian img{
+        width: 50%;
+    }
+    .slide_container1 .hou {
+        position: absolute;
+        right: -18%;
+        top: 87%;
+    }
+    .slide_container1 .hou img{
+        width: 50%;
+    }
+    .section-wrap .section .title {
+        width: 100%;}
+    .slide_container1 .quyu1 {
+        margin-bottom: 20%;
+    }
+    .slide_container1 .quyu1 span {
+        font-size: 14px;
+        color: #FFF;
+        display: block;
+        line-height: 22px;
+    }
+    .title .slide_container1 {
+        margin: 0 14%;
+    }
+    .title .slide_container1 .db {
+        margin-bottom: 40%;
+    }
+    .title .slide_container1 .db ul li {
+        width: 23.5%;
+        margin-right: 2%;
+        line-height: 24px;
+        font-size: 14px;
+    }
+   
+    .bz1 {
+        z-index: 100;
+        top: 6px;
+        left: 60%;}
+    .title .slide_container1 .qu .xinxi ul li h2{
+        font-size: 14px;
+    }
+    .title .slide_container1 .qu .xinxi ul li span{
+        font-size: 12px;
+    }
+    .bz1 a.logo {
+        width: 80px;
+        height: 41px;
+        left: 70%;
+        top: 1%;
+    }
+}

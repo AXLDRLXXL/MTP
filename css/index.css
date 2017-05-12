@@ -1,0 +1,223 @@
+.bz1{
+    width:128px;
+    height:55px;
+    position:absolute;
+    top:50px;
+    left:100px;
+    z-index: 90;
+}
+
+.bz1 .logo{
+	display: block;
+    width: 160px;
+    height: 82px;
+    position: fixed;
+    z-index: 100;
+    left: 10%;
+    top: 6%;
+}
+.bz1 .logo img{
+    border: none;
+    width: 100%;
+    }
+.our_job{
+    	    position: absolute;
+    bottom: 10%;
+    left: 6%;
+    text-align: left;
+    font-size: 16px;
+    color: #7d7d7d;
+    font-family: microsoft yahei;
+    }
+.our_job p{
+    font-size: 16px;
+    color: #7d7d7d;
+    font-family: microsoft yahei;
+
+}
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,br,pre,form,fieldset,input,textarea,p,blockquote,th,td
+                      { margin:0; padding:0}
+span{
+    color:#FF2B13;
+}
+a{
+    text-decoration: none;
+    color:#515050;
+}
+a:hover{
+    text-decoration: none;
+    color:red;
+    
+}
+
+.ziti {
+    color: #ffffff;
+    position: absolute;
+    left: 120px;
+    top: 150px;
+    font-size: 32px;
+    background-color: #7f90ae;
+}
+
+.qiehuan1{
+    color: #ffffff;
+    position: absolute;
+    z-index: 50;
+    left: 120px;
+    top: 200px;
+    font-size: 38px;
+    background-color: #7f90ae;
+}
+.qiehuan1 .qh1{
+    height:50px;
+    padding-left: 2%;
+}
+.qiehuan2{
+    color: #ffffff;
+    position: absolute;
+    z-index: 50;
+    left: 90px;
+    top: 272px;
+    font-size: 42px;
+    background-color: #7f90ae;
+}
+.qiehuan2 .qh2{
+    height:57px;
+    padding-left: 2%;
+}
+
+
+@media (max-width:768px) and (min-width: 500px){
+    div.burger {
+        top:12px
+    }
+    .qiehuan1{
+        color: #ffffff;
+        position: absolute;
+        z-index: 50;
+        left: 120px;
+        top: 314px;
+        font-size: 30px;
+        background-color: #7f90ae;
+        letter-spacing: 2px;
+    }
+    .qiehuan2{
+        color: #ffffff;
+        position: absolute;
+        z-index: 50;
+        left: 90px;
+        top: 368px;
+        font-size: 40px;
+        background-color: #7f90ae;
+        width: 568px;
+        letter-spacing: 2px;
+    }
+
+    .slide {
+        width: calc(100% - 0px);}
+
+    .zt p {
+        width: 260px;
+        left: 80px;
+        bottom: 30%;}
+    .bz1 {
+        top: 5px;
+        left: 80%;
+        z-index: 101;
+    }
+
+}
+
+@media (max-width:480px) and (min-width: 400px) {
+    div.burger {
+        top:12px
+    }
+    .qiehuan1 {
+        left: 120px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        top: 26%;
+        width: 135px;
+    }
+    .qiehuan1 .qh1{
+        height: 30px;
+    }
+    .qiehuan2 {
+        left: 71px;
+        font-size: 24px;
+        letter-spacing: 2px;
+        top: 31%;
+        width: 193px;
+    }
+    .qiehuan2 .qh2{
+        height: 40px;
+    }
+
+.zt p{
+    font-size: 16px;
+    width: 236px;
+    height: 30px;
+    left: 55px;
+    bottom: 35%;
+}
+    .bz1 {
+        top: 5px;
+        left: 64%;
+        z-index: 101;
+        width: 100px;
+        height: 30px;
+    }
+    .bz1 a img{
+        width: 110px;
+        height: 54px;
+    }
+  
+}
+
+@media (max-width: 320px) {
+    div.burger {
+        top:12px
+    }
+
+    .qiehuan1 {
+        font-size: 18px;
+        letter-spacing: 2px;
+        top: 26%;
+        width: 135px;
+        left: 33%;
+    }
+    .qiehuan1 .qh1{
+        height: 29px;
+    }
+    .qiehuan2 {
+        left: 64px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        top: 33%;
+    }
+    .qiehuan2 .qh2{
+        height: 33px;
+    }
+    
+    .zt p{
+        font-size: 16px;
+        width: 236px;
+        height: 30px;
+        left: 55px;
+        bottom: 20%;
+    }
+    .bz1 {
+        top: 5px;
+        left: 64%;
+        z-index: 101;
+        width: 100px;
+        height: 30px;
+    }
+    .bz1 a img{
+        width: 110px;
+        height: 54px;
+    }
+    
+}

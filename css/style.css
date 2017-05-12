@@ -1,0 +1,24 @@
+@charset "utf-8";
+*,body{padding:0px;margin:0px;}
+a{text-description:none;}
+
+.pic{height:100%;overflow:hidden;margin-left: 320px;
+    background-repeat:no-repeat;}
+.pic ul li{width:100%;height:930px;position:relative;;
+/*background:url(../images/bg1.jpg) center; */}
+/*.pic ul li img{position:absolute;left:-1180px;top:0px;}*/
+.pic ul li span{
+    position:absolute;
+    left:-1180px;
+    top:200px;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight:bold;
+    background-color: #7f90ae;
+    padding-bottom: 20px;
+}
+/*导航条*/
+.nav{width:100%;height:70px;/*background:rgba(255,255,255,0.5);*/background:#fff;opacity:0.75; /*透明度*/position:absolute;left:0px;bottom:0px;}
+/*进度条*/
+.bar{width:1180px;height:10px;left:50%;position:absolute;bottom:0px;margin-left:-590px;background:url(../images/bar.png);}
+.bar p{width:0px;height:10px;background:#00925f;margin-left:3px;}
